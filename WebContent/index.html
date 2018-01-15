@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>XCOM JEE Example</title>
+</head>
+<body>
+	<h2>XCOM JEE Example</h2>
+	<p>This project is an example of a project that can be built and deployed to OpenShift.</p>
+	<p>
+	<ul>
+		<li><a href="/snoop.jsp">/snoop.jsp</a>: Comes from JBoss example. Dumps information about the request.</li>
+		<li><a href="/diag">/diag</a>: Servlet that will dump the entire environment (HTTP, JVM, etc) as XML</li>
+		<li><a href="/killer.jsp">/killer.jsp</a>: Contains a single command, which will perform a System.exit(). This is just for demonstration purposes, to show what happens when an OpenShift pod is killed. If you observe in the console, you will see the current pod die and a new pod start up in its place automatically.</li>
+	</ul>
+	</p>
+	<br>
+	<p>See the readme.md file contained with the project for more information</p>
+</body>
+</html>
